@@ -1,0 +1,359 @@
+{
+  "Primary Modes": {
+    "Video": "http://10.5.5.9/gp/gpControl/command/mode?p=0",
+    "Photo": "http://10.5.5.9/gp/gpControl/command/mode?p=1",
+    "MultiShot": "http://10.5.5.9/gp/gpControl/command/mode?p=2"
+  },
+  "Video": {
+    "Mode": {
+      "Looping": "http://10.5.5.9/gp/gpControl/command/submode?mode=0&submode=3",
+      "Video+Photo": "http://10.5.5.9/gp/gpControl/command/submode?mode=0&submode=2",
+      "TimeLapse": "http://10.5.5.9/gp/gpControl/command/submode?mode=0&submode=1",
+      "Video": "http://10.5.5.9/gp/gpControl/command/submode?mode=0&submode=0"
+    },
+    "Resolution": {
+      "4K": "http://10.5.5.9/gp/gpControl/setting/2/1",
+      "4K SuperView": "http://10.5.5.9/gp/gpControl/setting/2/2",
+      "2.7K": "http://10.5.5.9/gp/gpControl/setting/2/4",
+      "2.7K SuperView": "http://10.5.5.9/gp/gpControl/setting/2/5",
+      "2.7K 4:3": "http://10.5.5.9/gp/gpControl/setting/2/6",
+      "1440p": "http://10.5.5.9/gp/gpControl/setting/2/7",
+      "1080p SuperView": "http://10.5.5.9/gp/gpControl/setting/2/8",
+      "1080p": "http://10.5.5.9/gp/gpControl/setting/2/9",
+      "960p": "http://10.5.5.9/gp/gpControl/setting/2/10",
+      "720p SuperView": "http://10.5.5.9/gp/gpControl/setting/2/11",
+      "720p": "http://10.5.5.9/gp/gpControl/setting/2/12",
+      "WVGA": "http://10.5.5.9/gp/gpControl/setting/2/13"
+    },
+    "Frame Rate": {
+      "120fps": "http://10.5.5.9/gp/gpControl/setting/3/0",
+      "90fps": "http://10.5.5.9/gp/gpControl/setting/3/3",
+      "60fps": "http://10.5.5.9/gp/gpControl/setting/3/5",
+      "48fps": "http://10.5.5.9/gp/gpControl/setting/3/7",
+      "30fps": "http://10.5.5.9/gp/gpControl/setting/3/8",
+      "24fps": "http://10.5.5.9/gp/gpControl/setting/3/10"
+    },
+    "Field of View": {
+      "Wide": "http://10.5.5.9/gp/gpControl/setting/4/0",
+      "Medium": "http://10.5.5.9/gp/gpControl/setting/4/1",
+      "Narrow": "http://10.5.5.9/gp/gpControl/setting/4/2"
+    },
+    "Timelapse Interval": {
+      "1": "http://10.5.5.9/gp/gpControl/setting/5/1",
+      "2": "http://10.5.5.9/gp/gpControl/setting/5/2",
+      "5": "http://10.5.5.9/gp/gpControl/setting/5/3",
+      "10": "http://10.5.5.9/gp/gpControl/setting/5/4",
+      "30": "http://10.5.5.9/gp/gpControl/setting/5/5",
+      "60": "http://10.5.5.9/gp/gpControl/setting/5/6",
+      "0.5": "http://10.5.5.9/gp/gpControl/setting/5/0"
+    },
+    "Looping Interval": {
+      "Max": "http://10.5.5.9/gp/gpControl/setting/6/0",
+      "5Min": "http://10.5.5.9/gp/gpControl/setting/6/1",
+      "20Min": "http://10.5.5.9/gp/gpControl/setting/6/2",
+      "60Min": "http://10.5.5.9/gp/gpControl/setting/6/3",
+      "120Min": "http://10.5.5.9/gp/gpControl/setting/6/4"
+    },
+    "Video+Photo Interval": {
+      "5s": "http://10.5.5.9/gp/gpControl/setting/7/1",
+      "10s": "http://10.5.5.9/gp/gpControl/setting/7/2",
+      "30s": "http://10.5.5.9/gp/gpControl/setting/7/3",
+      "60s": "http://10.5.5.9/gp/gpControl/setting/7/4"
+    },
+    "Low Light": {
+      "ON": "http://10.5.5.9/gp/gpControl/setting/8/1",
+      "OFF": "http://10.5.5.9/gp/gpControl/setting/8/0"
+    },
+    "Spot Meter": {
+      "off": "http://10.5.5.9/gp/gpControl/setting/9/0",
+      "on": "http://10.5.5.9/gp/gpControl/setting/9/1"
+    },
+    "Protune": {
+      "Off": "http://10.5.5.9/gp/gpControl/setting/10/0",
+      "On": "http://10.5.5.9/gp/gpControl/setting/10/1"
+    },
+    "White Balance": {
+      "Auto": "http://10.5.5.9/gp/gpControl/setting/11/0",
+      "3000k": "http://10.5.5.9/gp/gpControl/setting/11/1",
+      "5500k": "http://10.5.5.9/gp/gpControl/setting/11/2",
+      "6500k": "http://10.5.5.9/gp/gpControl/setting/11/3",
+      "Native": "http://10.5.5.9/gp/gpControl/setting/11/4"
+    },
+    "Color": {
+      "Gopro": "http://10.5.5.9/gp/gpControl/setting/12/0",
+      "Flat": "http://10.5.5.9/gp/gpControl/setting/12/1"
+    },
+    "ISO": {
+      "400": "http://10.5.5.9/gp/gpControl/setting/13/2",
+      "1600": "http://10.5.5.9/gp/gpControl/setting/13/1",
+      "6400": "http://10.5.5.9/gp/gpControl/setting/13/0"
+    },
+    "Sharpness": {
+      "High": "http://10.5.5.9/gp/gpControl/setting/14/0",
+      "Med": "http://10.5.5.9/gp/gpControl/setting/14/1",
+      "Low": "http://10.5.5.9/gp/gpControl/setting/14/2"
+    },
+    "EV": {
+      "0": "http://10.5.5.9/gp/gpControl/setting/15/4",
+      "+2": "http://10.5.5.9/gp/gpControl/setting/15/0",
+      "+1.5": "http://10.5.5.9/gp/gpControl/setting/15/1",
+      "+1": "http://10.5.5.9/gp/gpControl/setting/15/2",
+      "+0.5": "http://10.5.5.9/gp/gpControl/setting/15/3",
+      "-0.5": "http://10.5.5.9/gp/gpControl/setting/15/5",
+      "-1": "http://10.5.5.9/gp/gpControl/setting/15/6",
+      "-1.5": "http://10.5.5.9/gp/gpControl/setting/15/7",
+      "-2": "http://10.5.5.9/gp/gpControl/setting/15/8"
+    }
+  },
+  "Photo": {
+    "Mode": {
+      "Single": "http://10.5.5.9/gp/gpControl/command/submode?mode=1&submode=0",
+      "Continuous": "http://10.5.5.9/gp/gpControl/command/submode?mode=1&submode=1",
+      "Night": "http://10.5.5.9/gp/gpControl/command/submode?mode=1&submode=2"
+    },
+    "Resolution": {
+      "12MP Wide": "http://10.5.5.9/gp/gpControl/setting/17/0",
+      "7MP Wide": "http://10.5.5.9/gp/gpControl/setting/17/1",
+      "7MP Med": "http://10.5.5.9/gp/gpControl/setting/17/2",
+      "5MP Med": "http://10.5.5.9/gp/gpControl/setting/17/3"
+    },
+    "Continuous Rate": {
+      "3": "http://10.5.5.9/gp/gpControl/setting/18/0",
+      "5": "http://10.5.5.9/gp/gpControl/setting/18/1",
+      "10": "http://10.5.5.9/gp/gpControl/setting/18/2"
+    },
+    "Night Shutter Duration": {
+      "2s": "http://10.5.5.9/gp/gpControl/setting/19/1",
+      "5s": "http://10.5.5.9/gp/gpControl/setting/19/2",
+      "10s": "http://10.5.5.9/gp/gpControl/setting/19/3",
+      "15s": "http://10.5.5.9/gp/gpControl/setting/19/4",
+      "20s": "http://10.5.5.9/gp/gpControl/setting/19/5",
+      "30s": "http://10.5.5.9/gp/gpControl/setting/19/6",
+      "Auto": "http://10.5.5.9/gp/gpControl/setting/19/0"
+    },
+    "Spot Meter": {
+      "Off": "http://10.5.5.9/gp/gpControl/setting/20/0",
+      "On": "http://10.5.5.9/gp/gpControl/setting/20/1"
+    },
+    "Protune": {
+      "Off": "http://10.5.5.9/gp/gpControl/setting/21/0",
+      "On": "http://10.5.5.9/gp/gpControl/setting/21/1",
+      "Reset": "http://10.5.5.9/gp/gpControl/command/photo/protune/reset"
+    },
+    "White Balance": {
+      "Auto": "http://10.5.5.9/gp/gpControl/setting/22/0",
+      "3000k": "http://10.5.5.9/gp/gpControl/setting/22/1",
+      "5500k": "http://10.5.5.9/gp/gpControl/setting/22/2",
+      "6500k": "http://10.5.5.9/gp/gpControl/setting/22/3",
+      "Native": "http://10.5.5.9/gp/gpControl/setting/22/4"
+    },
+    "Color": {
+      "Gopro": "http://10.5.5.9/gp/gpControl/setting/23/0",
+      "Flat": "http://10.5.5.9/gp/gpControl/setting/23/1"
+    },
+    "ISO": {
+      "100": "http://10.5.5.9/gp/gpControl/setting/24/3",
+      "200": "http://10.5.5.9/gp/gpControl/setting/24/2",
+      "400": "http://10.5.5.9/gp/gpControl/setting/24/1",
+      "800": "http://10.5.5.9/gp/gpControl/setting/24/0"
+    },
+    "Sharpness": {
+      "High": "http://10.5.5.9/gp/gpControl/setting/25/0",
+      "Med": "http://10.5.5.9/gp/gpControl/setting/25/1",
+      "Low": "http://10.5.5.9/gp/gpControl/setting/25/2"
+    },
+    "EV": {
+      "0": "http://10.5.5.9/gp/gpControl/setting/26/4",
+      "+2": "http://10.5.5.9/gp/gpControl/setting/26/0",
+      "+1.5": "http://10.5.5.9/gp/gpControl/setting/26/1",
+      "+1": "http://10.5.5.9/gp/gpControl/setting/26/2",
+      "+0.5": "http://10.5.5.9/gp/gpControl/setting/26/3",
+      "-0.5": "http://10.5.5.9/gp/gpControl/setting/26/5",
+      "-1": "http://10.5.5.9/gp/gpControl/setting/26/6",
+      "-1.5": "http://10.5.5.9/gp/gpControl/setting/26/7",
+      "-2": "http://10.5.5.9/gp/gpControl/setting/26/8"
+    }
+  },
+  "MultiShot": {
+    "Mode": {
+      "Nightlapse": "http://10.5.5.9/gp/gpControl/command/submode?mode=2&submode=2",
+      "Timelapse": "http://10.5.5.9/gp/gpControl/command/submode?mode=2&submode=1",
+      "Burst": "http://10.5.5.9/gp/gpControl/command/submode?mode=2&submode=0"
+    },
+    "Resolution": {
+      "12MP Wide": "http://10.5.5.9/gp/gpControl/setting/28/0",
+      "7MP Wide": "http://10.5.5.9/gp/gpControl/setting/28/1",
+      "7MP Med": "http://10.5.5.9/gp/gpControl/setting/28/2",
+      "5MP Med": "http://10.5.5.9/gp/gpControl/setting/28/3"
+    },
+    "Burst Rate": {
+      "3p/1sec": "http://10.5.5.9/gp/gpControl/setting/29/0",
+      "5p/1sec": "http://10.5.5.9/gp/gpControl/setting/29/1",
+      "10p/1sec": "http://10.5.5.9/gp/gpControl/setting/29/2",
+      "10p/2sec": "http://10.5.5.9/gp/gpControl/setting/29/3",
+      "10p/3sec": "http://10.5.5.9/gp/gpControl/setting/29/4",
+      "30p/1sec": "http://10.5.5.9/gp/gpControl/setting/29/5",
+      "30p/2sec": "http://10.5.5.9/gp/gpControl/setting/29/6",
+      "30p/3sec": "http://10.5.5.9/gp/gpControl/setting/29/7",
+      "30p/6sec": "http://10.5.5.9/gp/gpControl/setting/29/8"
+    },
+    "Timelapse Interval": {
+      "0.5s": "http://10.5.5.9/gp/gpControl/setting/30/0",
+      "1s": "http://10.5.5.9/gp/gpControl/setting/30/1",
+      "2s": "http://10.5.5.9/gp/gpControl/setting/30/2",
+      "5s": "http://10.5.5.9/gp/gpControl/setting/30/3",
+      "10s": "http://10.5.5.9/gp/gpControl/setting/30/4",
+      "30s": "http://10.5.5.9/gp/gpControl/setting/30/5",
+      "60s": "http://10.5.5.9/gp/gpControl/setting/30/6"
+    },
+    "Nightlapse Shutter Duration": {
+      "2s": "http://10.5.5.9/gp/gpControl/setting/31/1",
+      "5s": "http://10.5.5.9/gp/gpControl/setting/31/2",
+      "10s": "http://10.5.5.9/gp/gpControl/setting/31/3",
+      "15s": "http://10.5.5.9/gp/gpControl/setting/31/4",
+      "20s": "http://10.5.5.9/gp/gpControl/setting/31/5",
+      "30s": "http://10.5.5.9/gp/gpControl/setting/31/6",
+      "Auto": "http://10.5.5.9/gp/gpControl/setting/31/0"
+    },
+    "Nightlapse Interval": {
+      "Continuous": "http://10.5.5.9/gp/gpControl/setting/30/0",
+      "4s": "http://10.5.5.9/gp/gpControl/setting/30/1",
+      "5s": "http://10.5.5.9/gp/gpControl/setting/30/2",
+      "10s": "http://10.5.5.9/gp/gpControl/setting/30/3",
+      "15s": "http://10.5.5.9/gp/gpControl/setting/30/4",
+      "20s": "http://10.5.5.9/gp/gpControl/setting/30/5",
+      "30s": "http://10.5.5.9/gp/gpControl/setting/30/6",
+      "1m": "http://10.5.5.9/gp/gpControl/setting/30/7",
+      "2m": "http://10.5.5.9/gp/gpControl/setting/30/8",
+      "5m": "http://10.5.5.9/gp/gpControl/setting/30/9",
+      "30m": "http://10.5.5.9/gp/gpControl/setting/30/10",
+      "60m": "http://10.5.5.9/gp/gpControl/setting/30/11"
+    },
+    "Spot Meter": {
+      "Off": "http://10.5.5.9/gp/gpControl/setting/33/0",
+      "On": "http://10.5.5.9/gp/gpControl/setting/33/1"
+    },
+    "Protune": {
+      "Off": "http://10.5.5.9/gp/gpControl/setting/34/0",
+      "On": "http://10.5.5.9/gp/gpControl/setting/34/1",
+      "Reset": "http://10.5.5.9/gp/gpControl/command/multi_shot/protune/reset"
+    },
+    "White Balance": {
+      "Auto": "http://10.5.5.9/gp/gpControl/setting/35/0",
+      "3000k": "http://10.5.5.9/gp/gpControl/setting/35/1",
+      "5500k": "http://10.5.5.9/gp/gpControl/setting/35/2",
+      "6500k": "http://10.5.5.9/gp/gpControl/setting/35/3",
+      "Native": "http://10.5.5.9/gp/gpControl/setting/35/4"
+    },
+    "Color": {
+      "Gopro": "http://10.5.5.9/gp/gpControl/setting/36/0",
+      "Flat": "http://10.5.5.9/gp/gpControl/setting/36/1"
+    },
+    "ISO": {
+      "100": "http://10.5.5.9/gp/gpControl/setting/37/3",
+      "200": "http://10.5.5.9/gp/gpControl/setting/37/2",
+      "400": "http://10.5.5.9/gp/gpControl/setting/37/1",
+      "800": "http://10.5.5.9/gp/gpControl/setting/37/0"
+    },
+    "Sharpness": {
+      "High": "http://10.5.5.9/gp/gpControl/setting/38/0",
+      "Med": "http://10.5.5.9/gp/gpControl/setting/38/1",
+      "Low": "http://10.5.5.9/gp/gpControl/setting/38/2"
+    },
+    "EV": {
+      "0": "http://10.5.5.9/gp/gpControl/setting/39/4",
+      "+2": "http://10.5.5.9/gp/gpControl/setting/39/0",
+      "+1.5": "http://10.5.5.9/gp/gpControl/setting/39/1",
+      "+1": "http://10.5.5.9/gp/gpControl/setting/39/2",
+      "+0.5": "http://10.5.5.9/gp/gpControl/setting/39/3",
+      "-0.5": "http://10.5.5.9/gp/gpControl/setting/39/5",
+      "-1": "http://10.5.5.9/gp/gpControl/setting/39/6",
+      "-1.5": "http://10.5.5.9/gp/gpControl/setting/39/7",
+      "-2": "http://10.5.5.9/gp/gpControl/setting/39/8"
+    }
+  },
+  "Setup": {
+    "Orientation": {
+      "Up": "http://10.5.5.9/gp/gpControl/setting/52/1",
+      "Down": "http://10.5.5.9/gp/gpControl/setting/52/2",
+      "Auto": "http://10.5.5.9/gp/gpControl/setting/52/0"
+    },
+    "Default Mode": {
+      "Video": "http://10.5.5.9/gp/gpControl/setting/53/0",
+      "Photo": "http://10.5.5.9/gp/gpControl/setting/53/1",
+      "MultiShot": "http://10.5.5.9/gp/gpControl/setting/53/2"
+    },
+    "Default MultiShot Mode": {
+      "Burst": "http://10.5.5.9/gp/gpControl/setting/27/0",
+      "Timelapse": "http://10.5.5.9/gp/gpControl/setting/27/1",
+      "Nightlapse": "http://10.5.5.9/gp/gpControl/setting/27/2"
+    },
+    "Default Video Mode": {
+      "Video": "http://10.5.5.9/gp/gpControl/setting/1/0",
+      "Timelapse Video": "http://10.5.5.9/gp/gpControl/setting/1/1",
+      "Video+Photo": "http://10.5.5.9/gp/gpControl/setting/1/2",
+      "Looping": "http://10.5.5.9/gp/gpControl/setting/1/3"
+    },
+    "Default Photo Mode": {
+      "Single": "http://10.5.5.9/gp/gpControl/setting/16/0",
+      "Continuous": "http://10.5.5.9/gp/gpControl/setting/16/1",
+      "Night": "http://10.5.5.9/gp/gpControl/setting/16/2"
+    },
+    "Quick Capture": {
+      "On": "http://10.5.5.9/gp/gpControl/setting/54/1",
+      "Off": "http://10.5.5.9/gp/gpControl/setting/54/0"
+    },
+    "LED Blink": {
+      "2": "http://10.5.5.9/gp/gpControl/setting/55/1",
+      "4": "http://10.5.5.9/gp/gpControl/setting/55/2",
+      "Off": "http://10.5.5.9/gp/gpControl/setting/55/0"
+    },
+    "Beeps": {
+      "Off": "http://10.5.5.9/gp/gpControl/setting/56/0",
+      "0.7": "http://10.5.5.9/gp/gpControl/setting/56/1",
+      "Full": "http://10.5.5.9/gp/gpControl/setting/56/2"
+    },
+    "Video Format": {
+      "NTSC": "http://10.5.5.9/gp/gpControl/setting/57/0",
+      "PAL": "http://10.5.5.9/gp/gpControl/setting/57/1"
+    },
+    "On Screen Display": {
+      "On": "http://10.5.5.9/gp/gpControl/setting/58/0",
+      "Off": "http://10.5.5.9/gp/gpControl/setting/58/1"
+    },
+    "Auto Off": {
+      "Never": "http://10.5.5.9/gp/gpControl/setting/59/0",
+      "1m": "http://10.5.5.9/gp/gpControl/setting/59/1",
+      "2m": "http://10.5.5.9/gp/gpControl/setting/59/2",
+      "3m": "http://10.5.5.9/gp/gpControl/setting/59/3",
+      "5m": "http://10.5.5.9/gp/gpControl/setting/59/4"
+    },
+    "Wireless Mode": {
+      "Off": "http://10.5.5.9/gp/gpControl/setting/60/0",
+      "App": "http://10.5.5.9/gp/gpControl/setting/60/1",
+      "RC": "http://10.5.5.9/gp/gpControl/setting/60/2",
+      "Smart": "http://10.5.5.9/gp/gpControl/setting/60/3"
+    }
+  },
+  "Utils": {
+    "Locate": {
+      "On": "http://10.5.5.9/gp/gpControl/command/system/locate?p=1",
+      "Off": "http://10.5.5.9/gp/gpControl/command/system/locate?p=0"
+    },
+    "Shutter": {
+      "Press": "http://10.5.5.9/gp/gpControl/command/shutter?p=1",
+      "Release": "http://10.5.5.9/gp/gpControl/command/shutter?p=0"
+    },
+    "Stream": {
+      "start": "http://10.5.5.9/gp/gpControl/execute?p1=gpStream&c1=restart",
+      "stop": "http://10.5.5.9/gp/gpControl/execute?p1=gpStream&c1=stop"
+    },
+    "Delete": {
+      "All": "http://10.5.5.9/gp/gpControl/command/storage/delete/all",
+      "Last": "http://10.5.5.9/gp/gpControl/command/storage/delete/last"
+    },
+    "FileList": "http://10.5.5.9:8080/gp/gpMediaList",
+    "Sleep": "http://10.5.5.9/gp/gpControl/command/system/sleep"
+  },
+  "FilePath": "http://10.5.5.9:8080/videos/DCIM/100GOPRO/"
+}
