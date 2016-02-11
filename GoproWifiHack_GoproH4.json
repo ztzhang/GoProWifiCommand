@@ -6,10 +6,10 @@
   },
   "Video": {
     "Mode": {
-      "Looping": "http://10.5.5.9/gp/gpControl/command/submode?mode=0&submode=3",
-      "Video+Photo": "http://10.5.5.9/gp/gpControl/command/submode?mode=0&submode=2",
-      "TimeLapse": "http://10.5.5.9/gp/gpControl/command/submode?mode=0&submode=1",
-      "Video": "http://10.5.5.9/gp/gpControl/command/submode?mode=0&submode=0"
+      "Looping": "http://10.5.5.9/gp/gpControl/command/sub_mode?mode=0&sub_mode=3",
+      "Video+Photo": "http://10.5.5.9/gp/gpControl/command/sub_mode?mode=0&sub_mode=2",
+      "TimeLapse": "http://10.5.5.9/gp/gpControl/command/sub_mode?mode=0&sub_mode=1",
+      "Video": "http://10.5.5.9/gp/gpControl/command/sub_mode?mode=0&sub_mode=0"
     },
     "Resolution": {
       "4K": "http://10.5.5.9/gp/gpControl/setting/2/1",
@@ -107,9 +107,9 @@
   },
   "Photo": {
     "Mode": {
-      "Single": "http://10.5.5.9/gp/gpControl/command/submode?mode=1&submode=0",
-      "Continuous": "http://10.5.5.9/gp/gpControl/command/submode?mode=1&submode=1",
-      "Night": "http://10.5.5.9/gp/gpControl/command/submode?mode=1&submode=2"
+      "Single": "http://10.5.5.9/gp/gpControl/command/sub_mode?mode=1&sub_mode=0",
+      "Continuous": "http://10.5.5.9/gp/gpControl/command/sub_mode?mode=1&sub_mode=1",
+      "Night": "http://10.5.5.9/gp/gpControl/command/sub_mode?mode=1&sub_mode=2"
     },
     "Resolution": {
       "12MP Wide": "http://10.5.5.9/gp/gpControl/setting/17/0",
@@ -176,9 +176,9 @@
   },
   "MultiShot": {
     "Mode": {
-      "Nightlapse": "http://10.5.5.9/gp/gpControl/command/submode?mode=2&submode=2",
-      "Timelapse": "http://10.5.5.9/gp/gpControl/command/submode?mode=2&submode=1",
-      "Burst": "http://10.5.5.9/gp/gpControl/command/submode?mode=2&submode=0"
+      "Nightlapse": "http://10.5.5.9/gp/gpControl/command/submode?mode=2&sub_mode=2",
+      "Timelapse": "http://10.5.5.9/gp/gpControl/command/submode?mode=2&sub_mode=1",
+      "Burst": "http://10.5.5.9/gp/gpControl/command/submode?mode=2&sub_mode=0"
     },
     "Resolution": {
       "12MP Wide": "http://10.5.5.9/gp/gpControl/setting/28/0",
