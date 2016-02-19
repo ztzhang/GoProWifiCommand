@@ -11,4 +11,5 @@ Simply connect to yout Gopro hotspot and send the corresponding http request to 
 I also worte a wificontroller and camera controller module in python, but only work under windows. It is designed to control multiple gopro cam(16 in my case) simutaneously using extra wifi interfaces. I also had a GUI for that, if you need those code, please contact me: gatzbutnotgreat at gmail dot com.
 
 #Reference:
-https://github.com/KonradIT/goprowifihack: KonradIT's version seems a bit outdated. Different urls are used to control the same property in diffrenet modes, ie, Video, Photo, Multi-Shot.
++ Thank for the contribution from @kyleinprogress, changing submode now works. 
++ https://github.com/KonradIT/goprowifihack: KonradIT's version seems a bit outdated. Different urls are used to control the same property in diffrenet modes, ie, Video, Photo, Multi-Shot.
