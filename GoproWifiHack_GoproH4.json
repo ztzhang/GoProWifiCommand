@@ -352,8 +352,10 @@
       "All": "http://10.5.5.9/gp/gpControl/command/storage/delete/all",
       "Last": "http://10.5.5.9/gp/gpControl/command/storage/delete/last"
     },
-    "FileList": "http://10.5.5.9:8080/gp/gpMediaList",
+    
     "Sleep": "http://10.5.5.9/gp/gpControl/command/system/sleep"
   },
-  "FilePath": "http://10.5.5.9:8080/videos/DCIM/100GOPRO/"
+  "GetStatus": "http://10.5.5.9:8080/gp/gpControl/status",
+  "FileList": "http://10.5.5.9:8080/gp/gpMediaList"
+
 }
